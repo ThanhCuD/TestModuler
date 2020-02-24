@@ -7,7 +7,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3E22D5AA-E6B
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{47FDA6E5-9F82-47A6-9F6C-818F2832D933}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module.WebHost", "src\Module.WebHost\Module.WebHost.csproj", "{BC8C2453-4081-40E5-BEB8-1F31E2FB23AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Module.WebHost", "src\Module.WebHost\Module.WebHost.csproj", "{BC8C2453-4081-40E5-BEB8-1F31E2FB23AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module.Infrastructure", "src\Module.Infrastructure\Module.Infrastructure.csproj", "{30FB2216-AE1F-404E-915F-88EBA12CC7F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module.Module.Core", "src\Modules\Module.Module.Core\Module.Module.Core.csproj", "{7850C747-52D7-4810-8BC6-FB13B3795959}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,6 +23,14 @@ Global
 		{BC8C2453-4081-40E5-BEB8-1F31E2FB23AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC8C2453-4081-40E5-BEB8-1F31E2FB23AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC8C2453-4081-40E5-BEB8-1F31E2FB23AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30FB2216-AE1F-404E-915F-88EBA12CC7F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30FB2216-AE1F-404E-915F-88EBA12CC7F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30FB2216-AE1F-404E-915F-88EBA12CC7F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30FB2216-AE1F-404E-915F-88EBA12CC7F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7850C747-52D7-4810-8BC6-FB13B3795959}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7850C747-52D7-4810-8BC6-FB13B3795959}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7850C747-52D7-4810-8BC6-FB13B3795959}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7850C747-52D7-4810-8BC6-FB13B3795959}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -26,6 +38,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{47FDA6E5-9F82-47A6-9F6C-818F2832D933} = {3E22D5AA-E6B4-43FA-9432-5EC1EF49114B}
 		{BC8C2453-4081-40E5-BEB8-1F31E2FB23AD} = {3E22D5AA-E6B4-43FA-9432-5EC1EF49114B}
+		{30FB2216-AE1F-404E-915F-88EBA12CC7F9} = {3E22D5AA-E6B4-43FA-9432-5EC1EF49114B}
+		{7850C747-52D7-4810-8BC6-FB13B3795959} = {47FDA6E5-9F82-47A6-9F6C-818F2832D933}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D5062C4B-8E20-4878-81AE-C57E8C27B44F}
