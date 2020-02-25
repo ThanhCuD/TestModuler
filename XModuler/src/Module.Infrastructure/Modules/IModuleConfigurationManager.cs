@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace SimplCommerce.Infrastructure.Modules
+namespace Module.Infrastructure.Modules
 {
     public interface IModuleConfigurationManager
     {

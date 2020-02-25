@@ -1,7 +1,20 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="Modules\Module.Module.Core\module.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Modules\Module.Module.Core\module.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Module.Infrastructure\Module.Infrastructure.csproj" />
+    <ProjectReference Include="..\Modules\Module.Module.Core\Module.Module.Core.csproj" />
+  </ItemGroup>
 
 </Project>

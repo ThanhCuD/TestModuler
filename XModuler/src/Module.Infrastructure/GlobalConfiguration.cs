@@ -1,4 +1,4 @@
-﻿using SimplCommerce.Infrastructure.Modules;
+﻿using Module.Infrastructure.Modules;
 using System;
 using System.Collections.Generic;
 

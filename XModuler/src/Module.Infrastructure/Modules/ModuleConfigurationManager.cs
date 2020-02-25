@@ -1,9 +1,10 @@
-﻿using Newtonsoft.Json;
+﻿using Module.Infrastructure;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.IO;
 
-namespace SimplCommerce.Infrastructure.Modules
+namespace Module.Infrastructure.Modules
 {
     public class ModuleConfigurationManager : IModuleConfigurationManager
     {

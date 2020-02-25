@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SimplCommerce.Infrastructure.Modules
+namespace Module.Infrastructure.Modules
 {
     public class MissingModuleManifestException : Exception
     {
